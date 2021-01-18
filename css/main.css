@@ -3,12 +3,13 @@
     padding: 0 ; 
     margin: 0 ; 
     box-sizing: border-box; 
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 body
 {
     background-color: #F1F1F1 ; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     background-color: #151320;
     height: 100vh;
 }
@@ -82,13 +83,13 @@ nav ul  li
 }
 .posts .post .info h2
 {
-    
+    font-weight: 700;
     margin: 15px 0 ;
     font-size: 30px ;
 }
 .posts .post .info h3 
 {
-    
+    opacity: 0.7;
     margin-bottom: 20px ;
 }
 .posts .post .info p 
