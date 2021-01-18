@@ -66,14 +66,14 @@ nav ul  li
     margin: 30px  20px ; 
     padding: 20px ; 
     background-color: #f2f2f2;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.727);
 }
 .posts .post .img 
 {
     width: 100% ; 
 }
 .posts .post  .img  img 
-{
+{6
     border-radius: 5px;
     width: 100% ; 
 }
