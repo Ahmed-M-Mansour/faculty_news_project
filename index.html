@@ -6,27 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ACU News </title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/319becac0e.js" crossorigin="anonymous"></script>
+    <script>
+        const chk = document.getElementById('chk');
+
+        chk.addEventListener('change', () => {
+            document.body.classList.toggle('dark');
+        }); 
+    </script>
 </head>
 
 <body>
-    <header id="header"> 
+    <header id="header">
 
-    <nav  >
-        <div class="container"> 
-       <ul>
-           <a href="#header">  <li>  Home </li> </a>
-           <a href="#posts">   <li> Posts  </li>  </a>
-           <a href="#contacts">  <li>  Contacts </li>  </a>
+        <nav>
+            <div class="container">
+                <ul>
+                    <a href="#header">
+                        <li> Home </li>
+                    </a>
+                    <a href="#posts">
+                        <li> Posts </li>
+                    </a>
+                    <a href="#contacts">
+                        <li> Contacts </li>
+                    </a>
 
-           
-          
-           
-       </ul>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
     </div>
-    </nav>
-</header>
 
     <div class="posts " id="posts">
         <div class="post post1">
@@ -46,7 +65,7 @@
                     </P>
                 </div>
             </div>
-        
+
         </div>
 
 
@@ -67,7 +86,7 @@
                     </P>
                 </div>
             </div>
-        
+
         </div>
 
         <div class="post post3">
@@ -87,29 +106,34 @@
                     </P>
                 </div>
             </div>
-        
+
         </div>
-        
+
     </div>
 
 
-    <footer id="contacts"> 
+    <footer id="contacts">
 
-     
+
         </div>
-        <div class="info"> 
-          
-           <h3 class="inf0_logo"> ACU <span>Universty </span></h3>
-            <ul>
-                <a target="_blank" href="https://teams.microsoft.com/_#/school/conversations/General?threadId=19:cb74809f96924d37bcb69f5a4b835053@thread.tacv2&ctx=channel"> 
-                    <li>  Microsoft Teams  </li> 
-                </a>
-                <a target="_blank" href="https://web.telegram.org/#/im">  <li> Telgram </li> </a>
-                <a target="_blank" href="#">  <li> WhatsApp </li> </a>
+        <div class="info">
 
-                
-               
-               
+            <h3 class="inf0_logo"> ACU <span>Universty </span></h3>
+            <ul>
+                <a target="_blank"
+                    href="https://teams.microsoft.com/_#/school/conversations/General?threadId=19:cb74809f96924d37bcb69f5a4b835053@thread.tacv2&ctx=channel">
+                    <li> Microsoft Teams </li>
+                </a>
+                <a target="_blank" href="https://web.telegram.org/#/im">
+                    <li> Telgram </li>
+                </a>
+                <a target="_blank" href="#">
+                    <li> WhatsApp </li>
+                </a>
+
+
+
+
             </ul>
         </div>
 
