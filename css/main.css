@@ -8,10 +8,43 @@
 
 body
 {
-    background-color: #F1F1F1 ; 
-    
-    background-color: #151320;
+    background-color: #F1F1F1 ;
     height: 100vh;
+    transition: .6s all ease-in-out;
+    -webkit-transition: .6s all ease-in-out;
+    -moz-transition: .6s all ease-in-out;
+    -ms-transition: .6s all ease-in-out;
+    -o-transition: .6s all ease-in-out;
+}
+
+.nightMode
+{
+    background-color: #151320;
+    transition: .6s all ease-in-out;
+    -webkit-transition: .6s all ease-in-out;
+    -moz-transition: .6s all ease-in-out;
+    -ms-transition: .6s all ease-in-out;
+    -o-transition: .6s all ease-in-out;
+}
+
+.nightModeBtn 
+{
+    width: 50px; 
+    height: 30px ;
+    position: fixed ;
+    top: 20px ;
+    right: 20px ;
+    z-index: 77;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    background-color: #151320;
+}
+svg {
+	width: 15px;
+    height: 15px;
 }
 
 
@@ -20,6 +53,7 @@ body
 header
 {
     margin-bottom: 100px;
+    z-index: 1;
 }
 nav 
 {
